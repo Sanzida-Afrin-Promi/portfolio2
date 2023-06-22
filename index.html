@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name = "viewport" content="width=device-width,initial scale=1.0">
+        <title>Sanzida's Portfolio</title>
+        <link rel= "stylesheet"  href="style.css">
+
+        <script src="https://kit.fontawesome.com/d0409b9ee1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo"><b>Sanzida</b></p> 
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hello, I'm <br><span> Sanzida Afrin <br>Promi </span><br></h1>
+                <p> Student of Software Engineering</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <!---------------about---------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="Images/about.jpg">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p> <br><br>In the realm of knowledge and growth, I, Sanzida Afrin Promi, humbly embark on the path of Software Engineering. As a dedicated student, my primary focus lies in nurturing my skills and expanding my understanding with each passing day.<br>
+                        I may not yet possess the depth of experience, I approach every project with a curious mind and a willingness to learn. I believe that progress is born from stepping outside of comfort zones, pushing the boundaries of what I thought possible. Every milestone achieved, no matter how small, fuels my motivation to keep going.<br><br></p>
+
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                            <p class="tab-links"onclick="opentab('experience')"><b>Experience</b></p>
+                            <p class="tab-links "onclick="opentab('education')"></b>Education<b></p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Competitive Programming</span><br> C, C++ </li>
+
+                                <li><span>App Development</span><br>Java , Kotlin , Android Studio</li>
+                                <li><span>Web Development</span><br>HTML, CSS , Javascript</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Looking for Internship oppurtunity</span></li>
+
+                                
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>B.Sc in Software Engineering</span><br>Shahjalal University Of Science And Technology<br>
+                                Session-2019-20<br> CGPA - 3.87 </li>
+
+                                <li><span>HSC</span><br>Holy Cross College Dhaka<br>
+                                Passing Year - 2019<br> GPA - 5.00</li>
+                                <li><span>SSC</span><br>Nasima Kadir Mulla High School And Homes<br>
+                                Passing Year - 2017<br>GPA- 5.00</li>
+                            </ul>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+    <!-------------------------My Projects---------------------->
+
+
+
+
+    <div id="projects">
+        <div class="container">
+           <h1 class="sub-title">My Projects</h1>
+           <div class="project-list">
+  
+              <div>
+                  <h2> Portfolio</h2>
+                  <p>Personal responsive portfolio of mine.<br>
+                   <b>Language</b> : HTML, CSS
+                   <b>Environment</b> : VS Code
+                </p>
+               <a href="https://github.com/Sanzida-Afrin-Promi/Portfolio">Learn more</a>
+              </div>
+  
+              <div>
+                  <h2>Connect</h2>
+                  <p> A disaster management App.<br>
+                    <b>Language</b> : Java<br>
+                    <b>Environment</b> : Android Studio<br>
+                    <b>Database</b> : Firebase
+                  </p>
+               <a href="https://github.com/fahadPathan7/Connect">Learn more</a>
+              </div>
+  
+              <div>
+                  <h2>Hidden treasure </h2>
+                  <p>A game Project.<br>
+                  <b>Language :</b>java<br> <b> Environment :</b> InttelIJ<br><b>Framework :</b> LibGDX</p>
+               <a href="#">Learn more</a>
+              </div>
+  
+              <div>
+                  <h2>Survival of Worrier</h2>
+                  <p> A game project.Fight with enemy and survive as many time as possible<br>
+                   <b>Language : </b>C++<br><b>Environment :</b> VS code<br><b>Framework :</b> Igraphics</p>
+               <a href="#">Learn more</a>
+
+              </div>
+              <div>
+                  <h2>Govt.School Book distribution Management System</h2>
+                  <p>Website of book distribution management system.<br>
+                  <b>Frontend:</b>HTML,CSS,JS<br> <b> Database:</b> MySQL,PHP</p>
+               <a href="#">Learn more</a>
+              </div>
+
+  
+           </div>
+         </div>
+      </div>
+
+<!------------------Services---------------->
+
+
+      <div id="services">
+        <div class="container">
+           <h1 class="sub-title">My Services</h1>
+           <div class="services-list">
+  
+              <div>
+                  <h2>Frontend Website</h2>
+                  <p>I can build responsive portfolio and small business website for you using HTML,CSS and Javascript.</p>
+               
+              </div>
+  
+              <div>
+                  <h2>Android App</h2>
+                  <p> I can develop android apps with database backend for you using Java language</p>
+               
+              </div>
+  
+              <div>
+                  <h2>2D Games</h2>
+                  <p>I can build story based fighting and survival games for you using C++</p>
+               
+              </div>
+  
+              <div>
+                  <h2>Academic Mentoring</h2>
+                  <p>I can help you in understanding and guiding academic courses</p>
+               
+              </div>
+  
+           </div>
+         </div>
+      </div>
+  
+
+
+      <!------------------------contact---------------->
+
+
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1> 
+                    <p><i class="fa-solid fa-envelope"></i>sanzidaafrin5432@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>01707796452</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100042918916496&mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://instagram.com/sanzida_afrin_promi?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Sanzida-Afrin-Promi"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                      <input type="text" name="Name" placeholder="Your Name" required>
+                      <input type="email" name="Email" placeholder="Your Email" required>
+                      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                      <button type="submit" class=" btn btn2">Submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-solid fa-copyright"></i>2023 Sanzida Afrin Promi.All rights reserved.</p>
+        </div>
+      </div>
+       
+  
+
+
+
+    <script>
+
+
+        var  tablinks = document.getElementsByClassName("tab-links");
+        var  tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+        
+
+
+
+    </script>
+
+    <script>
+        
+         var sidemeu = document.getElementById("sidemenu");
+         function openmenu(){
+           sidemeu.style.right="0";
+          }
+         function closemenu(){
+          sidemenu.style.right="-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGUbE9Ie1uG9ygi_gm8CVFx16ZlD5U2UpC8YHosIhmnZ1BMle6bn53QBROLeQfGHpk/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""  
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+    
+
+    </body>
+</html>
